@@ -1,0 +1,9 @@
+@keyframes test {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+}
+
+.navbar {
+    animation-name: test;
+    animation-duration: 4s;
+}
