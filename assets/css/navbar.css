@@ -2,13 +2,70 @@ body {
     background-color: slategray;
 }
 
-#nav-main {
+#nav-button {
     stroke: yellow;
     stroke-width: 0;
     animation-fill-mode: forwards;
-    transition: stroke-width 1.3s ease-in-out;
+    transition: stroke-width 1.0s ease-in-out;
 }
 
-#nav-main:hover {
-    stroke-width: 5;
+#nav-button:hover {
+    stroke-width: 15;
+}
+
+@keyframes glowSpread {
+    from {
+        opacity: 0.0;
+        width: 10px;
+    }
+    to {
+        opacity: 1.0;
+        width: 7950px;
+    }
+}
+
+#glow-container {
+    opacity: 0.0;
+    fill: yellow;
+    width: 10px;
+}
+
+.glow-spread {
+    animation: glowSpread 3s forwards;
+}
+
+@keyframes displayRects {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+#about {
+    opacity: 0.0;
+}
+
+.display-about {
+    animation: displayRects 0.5s forwards;
+    animation-delay: 1.0s;
+}
+
+#projects {
+    opacity: 0.0;
+}
+
+.display-projects {
+    animation: displayRects 0.5s forwards;
+    animation-delay: 2s;
+}
+
+#links {
+    opacity: 0.0;
+}
+
+.display-links {
+    animation: displayRects 0.5s forwards;
+    animation-delaY: 2.5s;
 }
