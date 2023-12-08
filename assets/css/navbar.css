@@ -24,14 +24,21 @@ body {
     }
 }
 
+@keyframes glowShrink {
+    from {
+        opacity: 1.0;
+        width: 7950px;
+    }
+    to{
+        opacity: 0.0;
+        width: 10px;
+    }
+}
+
 #glow-container {
     opacity: 0.0;
     fill: #FFDF80;
     width: 10px;
-}
-
-.glow-spread {
-    animation: glowSpread 3s forwards;
 }
 
 @keyframes displayRects {
@@ -43,22 +50,22 @@ body {
     }
 }
 
+@keyframes hideRects {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+
+
 #about {
     opacity: 0.0;
 }
 
-.display-about {
-    animation: displayRects 1.0s forwards;
-    animation-delay: 0.5s;
-}
-
 #projects {
     opacity: 0.0;
-}
-
-.display-projects {
-    animation: displayRects 0.5s forwards;
-    animation-delay: 1.0s;
 }
 
 #links {
@@ -67,5 +74,5 @@ body {
 
 .display-links {
     animation: displayRects 0.5s forwards;
-    animation-delaY: 2.5s;
+    animation-delay: 2.5s;
 }
