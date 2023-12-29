@@ -7,17 +7,17 @@ function navbarClick() {
         links = document.getElementById('links');
 
         if(clicks%2 == 0){
-            glowContainer.style.animation = 'glowSpread 3s forwards';
-            about.style.animation = 'displayRects 1.0s 0.5s forwards';
-            projects.style.animation = 'displayRects 1.0s 1.0s forwards';
-            links.style.animation = 'displayRects 1.0s 2.5s forwards';
+            glowContainer.style.animation = 'glowSpread 1s forwards';
+            about.style.animation = 'displayTabs 1s forwards';
+            projects.style.animation = 'displayTabs 1s forwards';
+            links.style.animation = 'displayTabs 1s forwards';
             clicks = clicks + 1;
         }
         else{
-            glowContainer.style.animation = 'glowShrink 3s forwards';
-            links.style.animation = 'hideRects 0.7s forwards';
-            projects.style.animation = 'hideRects 1.5s forwards';
-            about.style.animation = 'hideRects 3.0s forwards';
+            glowContainer.style.animation = 'glowShrink 1s forwards';
+            about.style.animation = 'hideTabs 1s forwards';
+            projects.style.animation = 'hideTabs 1s forwards';
+            links.style.animation = 'hideTabs 1s forwards';
             clicks = clicks +1;
         }
 }

@@ -3,76 +3,111 @@ body {
 }
 
 #nav-button {
-    stroke: #FFDF80;
-    stroke-width: 13;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border: 0.6px solid #FFDF80;
+    border-radius: 2px;
     animation-fill-mode: forwards;
-    transition: stroke-width 0.2s ease-out;
+    transition: border-width 0.2s ease-out;
+}
+
+.bar {
+    position: absolute;
+    left: 10%;
+    height: 11%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: red;
+}
+
+#top {
+    top: 18%;
+}
+
+#middle {
+    top: 43%;
+}
+
+#bottom {
+    top: 70%;
 }
 
 #nav-button:hover {
-    stroke-width: 25;
+    border-width: 1px;
+}
+
+#glow-container {
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    width: 2%;
+    height: 16px;
+    background-color: #FFDF80;
+    border-radius: 2px;
 }
 
 @keyframes glowSpread {
     from {
         opacity: 0.0;
-        width: 10px;
+        width: 2%;
     }
     to {
         opacity: 1.0;
-        width: 7950px;
+        width: 98%;
     }
 }
 
 @keyframes glowShrink {
     from {
         opacity: 1.0;
-        width: 7950px;
+        width: 98%;
     }
     to{
         opacity: 0.0;
-        width: 10px;
+        width: 2%;
     }
 }
 
-#glow-container {
+.navtab {
     opacity: 0.0;
-    fill: #FFDF80;
-    width: 10px;
+    position: absolute;
+    background-color: blue;
+    top: 7%;
+    width: 30%;
+    height: 86%;
+    border-radius: 2px; 
 }
-
-@keyframes displayRects {
-    from {
-        opacity: 0.0;
-    }
-    to {
-        opacity: 1.0;
-    }
-}
-
-@keyframes hideRects {
-    from {
-        opacity: 1.0;
-    }
-    to {
-        opacity: 0.0;
-    }
-}
-
 
 #about {
-    opacity: 0.0;
+    left: 7%;
 }
 
 #projects {
-    opacity: 0.0;
+    left: 38.25%;
 }
 
 #links {
-    opacity: 0.0;
+    left: 69.5%;
 }
 
-.display-links {
-    animation: displayRects 0.5s forwards;
-    animation-delay: 2.5s;
+@keyframes displayTabs {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+@keyframes hideTabs {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
 }
