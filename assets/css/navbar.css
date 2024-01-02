@@ -19,11 +19,11 @@ p {
     position: fixed;
     top: 2%;
     left: 1%;
-    height: 16px;
-    width: 16px;
+    height: 36px;
+    width: 36px;
     background-color: blue;
-    border: 0.6px solid #FFDF80;
-    border-radius: 2px;
+    border: 1.2px solid #FFDF80;
+    border-radius: 5px;
     animation-fill-mode: forwards;
     transition: border-width 0.2s ease-out;
 }
@@ -50,17 +50,18 @@ p {
 }
 
 #nav-button:hover {
-    border-width: 1px;
+    border-width: 2px;
 }
 
 #glow-container {
+    opacity: 0.0;
     position: fixed;
     top: 2%;
     left: 1%;
-    width: 10px;
-    height: 16px;
+    width: 36px;
+    height: 38px;
     background-color: #FFDF80;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 @keyframes glowSpread {
@@ -92,11 +93,10 @@ p {
     top: 7%;
     width: 30%;
     height: 86%;
-    border-radius: 2px;
+    border-radius: 5px;
     color: white;
     text-align: center;
-    font-size: 8px;
-    line-height: 160%;
+    font-size: 28px;
 }
 
 #about {
