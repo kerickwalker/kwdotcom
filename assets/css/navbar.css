@@ -1,13 +1,26 @@
+/* general styling */
+
 body {
     background-color: #1d1d1f;
 }
+
+h1 {
+    color: white;
+
+}
+
+p {
+    color: white;
+}
+
+/* navbar styling and animations */
 
 #nav-button {
     position: fixed;
     top: 2%;
     left: 1%;
-    height: 15px;
-    width: 15px;
+    height: 16px;
+    width: 16px;
     background-color: blue;
     border: 0.6px solid #FFDF80;
     border-radius: 2px;
@@ -44,7 +57,7 @@ body {
     position: fixed;
     top: 2%;
     left: 1%;
-    width: 2%;
+    width: 10px;
     height: 16px;
     background-color: #FFDF80;
     border-radius: 2px;
@@ -53,7 +66,7 @@ body {
 @keyframes glowSpread {
     from {
         opacity: 0.0;
-        width: 2%;
+        width: 10px;
     }
     to {
         opacity: 1.0;
@@ -79,7 +92,11 @@ body {
     top: 7%;
     width: 30%;
     height: 86%;
-    border-radius: 2px; 
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    line-height: 160%;
 }
 
 #about {
