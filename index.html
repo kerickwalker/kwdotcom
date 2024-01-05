@@ -5,23 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
-		<script src="assets/javascript/animations.js"></script> 
+		<script src="assets/javascript/animations.js"></script>
+		<script src="assets/javascript/page-scroller.js"></script> 
 	</head>
 	<body>
-		<div id="glow-container">
-			<div class="navtab" id="about-tab">About</div>
-			<div class="navtab" id="projects-tab">Projects</div>
-			<div class="navtab" id="links-tab">Links</div>
-		</div>
-		<div id="nav-button" onclick="navbarClick()">
-			<div class="bar" id="top" top="0px"></div>
-			<div class="bar" id="middle" top="5px"></div>
-			<div class="bar" id="bottom" top="10px"></div>
-		</div>
 		<div id="masthead">
 			<h1 id="name">Kerick Walker</h1>
 			<img id="profile-pic" src="./assets/images/IMG_1472.jpeg">
-			<p id="subname">Computer Science and Math<br>Pomona College<br>Phillips Exeter Academy</p>
+			<p id="subname">Computer Science and Math<br>Pomona College<br>Phillips Exeter Academy<br>kerickwalker@gmail.com</p>
 		</div>
 		<div id="about">
 			<h1>About</h1>
@@ -58,5 +49,15 @@
 			</p>
 		</div>
 		<div id="padding"></div>
+		<div id="glow-container">
+			<div class="navtab" id="about-tab" onclick="aboutScroll()">About</div>
+			<div class="navtab" id="projects-tab" onclick="projectsScroll()">Projects</div>
+			<div class="navtab" id="links-tab" onclick="linksScroll()">Links</div>
+		</div>
+		<div id="nav-button" onclick="navbarClick()">
+			<div class="bar" id="top" top="0px"></div>
+			<div class="bar" id="middle" top="5px"></div>
+			<div class="bar" id="bottom" top="10px"></div>
+		</div>
 	</body>
 </html>

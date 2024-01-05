@@ -1,5 +1,9 @@
 /* general styling */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #1d1d1f;
 }
@@ -97,6 +101,7 @@ p {
     color: white;
     text-align: center;
     font-size: 28px;
+    user-select: none;
 }
 
 #about-tab {
