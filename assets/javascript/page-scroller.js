@@ -1,5 +1,9 @@
+function homeScroll() {
+    window.scrollTo(0, 0);
+}
+
 function aboutScroll() {
-    window.scrollTo(0, window.innerHeight / 100 * 85);
+    window.scrollTo(0 , window.innerHeight / 100 * 85);
 }
 
 function projectsScroll() {

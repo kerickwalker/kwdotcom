@@ -95,7 +95,7 @@ p {
     position: absolute;
     background-color: blue;
     top: 7%;
-    width: 30%;
+    width: 23.5%;
     height: 86%;
     border-radius: 5px;
     color: white;
@@ -104,16 +104,20 @@ p {
     user-select: none;
 }
 
+#home-tab {
+    left: 4%;
+}
+
 #about-tab {
-    left: 7%;
+    left: 28%;
 }
 
 #projects-tab {
-    left: 38.25%;
+    left: 52%;
 }
 
 #links-tab {
-    left: 69.5%;
+    left: 76%;
 }
 
 @keyframes displayTabs {
