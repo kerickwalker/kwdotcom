@@ -7,9 +7,9 @@ function aboutScroll() {
 }
 
 function projectsScroll() {
-    window.scrollTo(0, window.innerHeight / 100 * 170);
+    window.scrollTo(0, window.innerHeight / 100 * 190);
 }
 
 function linksScroll() {
-    window.scrollTo(0, window.innerHeight / 100 * 255);
+    window.scrollTo(0, window.innerHeight / 100 * 295);
 }

@@ -17,6 +17,10 @@ p {
     color: white;
 }
 
+h2 {
+    color: white;
+}
+
 /* navbar styling and animations */
 
 #nav-button {
@@ -191,17 +195,38 @@ p {
     position: absolute;
     top: 200%;
     left: 20%;
-    height: 40%;
+    height: 80%;
     width: 60%;
+    text-align: center;
+}
+
+#featured-project {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 65%;
     border: 1px solid red;
     text-align: center;
+    margin: 0;
+}
+
+#other-projects {
+    position: absolute;
+    top: 0%;
+    left: 65%;
+    height: 100%;
+    width: 35%;
+    border: 1px solid red;
+    text-align: center;
+    margin: 0;
 }
 
 /* links styling */
 
 #links {
     position: absolute;
-    top: 285%;
+    top: 325%;
     left: 20%;
     height: 40%;
     width: 60%;
@@ -213,7 +238,7 @@ p {
 
 #padding {
     position: absolute;
-    top: 325%;
+    top: 365%;
     left: 20%;
     height: 30%;
     width: 60%;
