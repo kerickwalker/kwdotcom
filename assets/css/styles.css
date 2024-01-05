@@ -199,3 +199,13 @@ p {
     border: 1px solid red;
     text-align: center;
 }
+
+/* padding styling */
+
+#padding {
+    position: absolute;
+    top: 325%;
+    left: 20%;
+    height: 30%;
+    width: 60%;
+}
