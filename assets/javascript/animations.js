@@ -2,9 +2,9 @@ clicks = 0;
 
 function navbarClick() {
         glowContainer = document.getElementById('glow-container');
-        about = document.getElementById('about');
-        projects = document.getElementById('projects');
-        links = document.getElementById('links');
+        about = document.getElementById('about-tab');
+        projects = document.getElementById('projects-tab');
+        links = document.getElementById('links-tab');
 
         if(clicks%2 == 0){
             glowContainer.style.animation = 'glowSpread .65s forwards';

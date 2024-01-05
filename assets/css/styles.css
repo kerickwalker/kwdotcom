@@ -99,15 +99,15 @@ p {
     font-size: 28px;
 }
 
-#about {
+#about-tab {
     left: 7%;
 }
 
-#projects {
+#projects-tab {
     left: 38.25%;
 }
 
-#links {
+#links-tab {
     left: 69.5%;
 }
 
@@ -132,8 +132,8 @@ p {
 /* masthead styling */
 
 #masthead {
-    position: fixed;
-    top: 12%;
+    position: absolute;
+    top: 30%;
     left: 20%;
     height: 40%;
     width: 60%;
@@ -162,4 +162,40 @@ p {
     left: 10%;
     width: 40%;
     line-height: 300%;
+}
+
+/* about styling */
+
+#about {
+    position: absolute;
+    top: 115%;
+    left: 20%;
+    height: 40%;
+    width: 60%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+/* projects sytling */
+
+#projects {
+    position: absolute;
+    top: 200%;
+    left: 20%;
+    height: 40%;
+    width: 60%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+/* links styling */
+
+#links {
+    position: absolute;
+    top: 285%;
+    left: 20%;
+    height: 40%;
+    width: 60%;
+    border: 1px solid red;
+    text-align: center;
 }
